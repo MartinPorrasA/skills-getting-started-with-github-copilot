@@ -65,6 +65,41 @@ section h3 {
   background-color: #f9f9f9;
 }
 
+.participants-list {
+  margin: 8px 0 0 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.participant-item {
+  color: #1565c0;
+  font-size: 15px;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.delete-icon {
+  cursor: pointer;
+  color: #c62828;
+  font-size: 18px;
+  margin-left: 6px;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #b71c1c;
+}
+  padding-left: 0;
+  list-style-type: disc;
+}
+
+.participants-section li {
+  color: #1565c0;
+  font-size: 15px;
+  margin-bottom: 4px;
+}
+
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
